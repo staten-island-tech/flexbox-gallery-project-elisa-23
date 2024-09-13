@@ -5,7 +5,7 @@ html,
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background: linear-gradient(180deg, rgba(61, 11, 82, 0.504), rgba(223, 31, 134, 0.5), rgba(226, 80, 26, 0.539), rgba(248, 220, 118, 0.519)), url();
+    background-image: url(img/greek-slab.png);
 }
 
 .container {
@@ -22,13 +22,14 @@ html,
 .card {
     width: 30rem;
     height: 35rem;
-    background: linear-gradient(0deg, rgba(11, 6, 78, 0.85)), url();
-    border: 2px solid rgb(15, 19, 51);
+    background-color: rgb(252, 241, 215);
+    border: 5px solid rgb(121, 111, 96);
     border-radius: 3px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 2rem auto;
 }
 
 .card-img {
