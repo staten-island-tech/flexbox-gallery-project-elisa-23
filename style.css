@@ -20,7 +20,7 @@ html,
 }
 
 .card {
-    width: 30rem;
+    width: 30%;
     height: 35rem;
     background-color: rgb(252, 241, 215);
     border: 5px solid rgb(121, 111, 96);
@@ -29,7 +29,6 @@ html,
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin-top: 2rem auto;
 }
 
 .card-img {
