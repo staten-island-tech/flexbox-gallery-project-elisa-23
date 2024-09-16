@@ -7,8 +7,9 @@ html,
     padding: 0;
 }
 
-body {
-    background-image: url(img\star-background.png);
+#id {
+    background-image: url(img/star-background.png);
+    background-size: cover;
 }
 
 .container {
