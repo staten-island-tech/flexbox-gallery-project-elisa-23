@@ -27,7 +27,9 @@ html,
 
 #navi-logo {
     float: left;
-    height: 2.75vw;
+    height: 6.5vw;
+    margin: -1vw;
+    margin-top: -1.75vw;
 }
 
 .navi-text {
@@ -84,15 +86,7 @@ html,
 }
 
 .card-img:hover {
-    height: 100%;
-}
-
-.card-img:hover .card-disc {
-    opacity: 0%;
-}
-
-.card-img:hover .card-header {
-    opacity: 0%;
+    height: max-content;
 }
 
 .card-header {
