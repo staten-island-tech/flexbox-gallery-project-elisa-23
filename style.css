@@ -21,16 +21,19 @@ body {
     align-items: center;
     padding: 1vw;
     padding-right: 20px;
+    transition: 0.5s;
 }
 
 #navi-logo {
     height: 5.5vw;
     margin: -1vw;
     margin-top: -1.75vw;
+    transition: all 3s;
 }
 
 #navi-logo:hover {
-    animation-name: ;
+    transform: rotate(540deg);
+    height: 6.5vw;
 }
 
 .container {
@@ -77,21 +80,32 @@ body {
 .card:hover {
     width: 35%;
     height: 45rem;
-    background-color: rgb(157, 245, 239);
+    background-color: rgb(252, 255, 208);
+}
+
+.card-img:hover {
+    object-position: 50% 100%;
 }
 
 .card-img {
     width: 100%;
     height: 40%;
     object-fit: cover;
+    object-position: 50% 10%;
+    transition: all 2.5s;
 }
 
 .card-header {
     font-size: 22px;
     margin-top: 1.2rem;
+    transition: all 1.5;
 }
 
 .card-disc {
     margin: 15px;
     font-size: 19px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
