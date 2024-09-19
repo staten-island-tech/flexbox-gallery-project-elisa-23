@@ -7,10 +7,17 @@ html,
     padding: 0;
 }
 
+header {
+    animation: name .4s infinite;
+}
+
+@keyframes name {}
+
 body {
     background-image: url(img/background.png);
     background-size: cover;
 }
+
 
 .navi-bar {
     background-color: rgb(201, 225, 234);
@@ -108,6 +115,11 @@ body {
     width: 35%;
     height: 45rem;
     background-color: rgb(252, 255, 208);
+    transition: all 5s;
+}
+
+#terpsichore-card:active {
+    transform: rotateY(1800deg);
 }
 
 .card-img {
