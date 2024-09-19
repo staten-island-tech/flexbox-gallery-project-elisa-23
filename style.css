@@ -138,6 +138,14 @@ body {
 }
 
 @media screen and (max-width: 1100px) {
+    .navi-bar {
+        height: 9vw;
+    }
+
+    #navi-title {
+        font-size: 15px;
+    }
+
     .container {
         flex-direction: row;
         align-items: center;
