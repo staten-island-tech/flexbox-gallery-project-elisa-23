@@ -7,12 +7,6 @@ html,
     padding: 0;
 }
 
-header {
-    animation: name .4s infinite;
-}
-
-@keyframes name {}
-
 body {
     background-image: url(img/background.png);
     background-size: cover;
