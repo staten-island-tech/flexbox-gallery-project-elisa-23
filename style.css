@@ -12,6 +12,7 @@ body {
     background-size: cover;
 }
 
+
 .navi-bar {
     background-color: rgb(201, 225, 234);
     height: 4vw;
@@ -23,13 +24,6 @@ body {
     transition: 0.5s;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-.start-animation {
-    background-color: black;
-    size: cover;
-    z-index: 999;
-    top: 0;
 }
 
 #navi-title {
