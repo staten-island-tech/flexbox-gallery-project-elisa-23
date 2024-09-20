@@ -12,12 +12,14 @@ body {
     background-size: cover;
 }
 
+.start-animation {}
+
 .navi-bar {
     background-color: rgb(201, 225, 234);
     height: 4vw;
     position: sticky;
-    z-index: 999;
-    top: 0;
+    z-index: 998;
+    top: 1;
     align-items: center;
     padding: 1vw;
     transition: 0.5s;
