@@ -178,8 +178,17 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+    .navi-bar {
+        height: 7.5vw;
+    }
+
+    #navi-title {
+        left: 7.5%;
+        font-size: 20px;
+    }
+
     #navi-logo {
-        height: 5.5vw;
+        height: 9.5vw;
     }
 
     .title-container {
@@ -193,5 +202,11 @@ body {
 
     .card {
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #navi-title {
+        font-size: 12px;
     }
 }
