@@ -1,7 +1,7 @@
 body,
 html,
 * {
-    font-size: 10px;
+    font-size: 1rem;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -89,20 +89,20 @@ body {
     padding-bottom: 3.5rem;
     display: block;
     margin: 3rem auto;
-    border: 4px solid rgb(104, 140, 171);
-    border-radius: 100px;
+    border: 0.4rem solid rgb(104, 140, 171);
+    border-radius: 10rem;
     transition: all 1.5s;
 }
 
 .title-container:hover {
-    border-radius: 7px;
+    border-radius: 0.7rem;
     transform: scale(125%);
-    box-shadow: 0px 15px 15px rgb(68, 99, 126);
+    box-shadow: 0rem 1.5rem 1.5rem rgb(68, 99, 126);
 }
 
 #title {
     text-align: center;
-    padding-top: 37px;
+    padding-top: 3rem;
     font-size: 5vw;
     font-family: "Pirata One", system-ui;
     font-weight: 400;
@@ -113,14 +113,14 @@ body {
     width: 23%;
     height: 40rem;
     background-color: rgb(235, 243, 255);
-    border: 5px solid rgb(49, 91, 132);
-    border-radius: 20px;
+    border: 0.5rem solid rgb(49, 91, 132);
+    border-radius: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 5rem;
-    box-shadow: 15px 15px 12.5px rgb(101, 119, 134);
+    box-shadow: 1.5rem 1.5rem 1.25rem rgb(101, 119, 134);
     transition: all 3.0s;
 }
 
@@ -144,13 +144,13 @@ body {
 }
 
 .card-header {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 1.2rem;
     transition: all 1.5;
 }
 
 .card-disc {
-    margin: 15px;
+    margin: 0.1rem;
     font-size: 1.5rem;
     font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
@@ -184,7 +184,7 @@ body {
 
     #navi-title {
         left: 7.5%;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     #navi-logo {
