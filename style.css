@@ -1,7 +1,7 @@
 body,
 html,
 * {
-    font-size: 1rem;
+    font-size: 10px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -89,20 +89,20 @@ body {
     padding-bottom: 3.5rem;
     display: block;
     margin: 3rem auto;
-    border: 0.4rem solid rgb(104, 140, 171);
-    border-radius: 10rem;
+    border: 4px solid rgb(104, 140, 171);
+    border-radius: 100px;
     transition: all 1.5s;
 }
 
 .title-container:hover {
-    border-radius: 0.7rem;
+    border-radius: 7px;
     transform: scale(125%);
-    box-shadow: 0rem 1.5rem 1.5rem rgb(68, 99, 126);
+    box-shadow: 0px 15px 15px rgb(68, 99, 126);
 }
 
 #title {
     text-align: center;
-    padding-top: 3rem;
+    padding-top: 37px;
     font-size: 5vw;
     font-family: "Pirata One", system-ui;
     font-weight: 400;
@@ -113,14 +113,14 @@ body {
     width: 23%;
     height: 40rem;
     background-color: rgb(235, 243, 255);
-    border: 0.5rem solid rgb(49, 91, 132);
-    border-radius: 2rem;
+    border: 5px solid rgb(49, 91, 132);
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 5rem;
-    box-shadow: 1.5rem 1.5rem 1.25rem rgb(101, 119, 134);
+    box-shadow: 15px 15px 12.5px rgb(101, 119, 134);
     transition: all 3.0s;
 }
 
@@ -144,23 +144,14 @@ body {
 }
 
 .card-header {
-<<<<<<< HEAD
-    font-size: 1.5rem;
-=======
     font-size: 20px;
->>>>>>> parent of 91a92d1 (Update style.css)
     margin-top: 1.2rem;
     transition: all 1.5;
 }
 
 .card-disc {
-<<<<<<< HEAD
-    margin: 0.1rem;
-    font-size: 1.5rem;
-=======
     margin: 15px;
     font-size: 15px;
->>>>>>> parent of 91a92d1 (Update style.css)
     font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
@@ -193,11 +184,7 @@ body {
 
     #navi-title {
         left: 7.5%;
-<<<<<<< HEAD
-        font-size: 1.5rem;
-=======
         font-size: 20px;
->>>>>>> parent of 91a92d1 (Update style.css)
     }
 
     #navi-logo {
